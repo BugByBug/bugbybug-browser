@@ -1,0 +1,26 @@
+{
+  "name": "@bugbybug/browser",
+  "version": "0.1.0",
+  "description": "Official browser SDK for BugByBug",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "error-tracking",
+    "monitoring",
+    "bugbybug",
+    "sdk"
+  ],
+  "author": "Folawewo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BugByBug/bugbybug-browser.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
