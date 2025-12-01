@@ -52,7 +52,7 @@ export class Client {
       environment: this.config.environment || 'production',
       url: typeof window !== 'undefined' ? window.location.href : '',
       appVersion: this.config.appVersion,
-      sdkVersion: '0.1.0', 
+      sdkVersion: '0.1.1', 
       userId: this.user.id,
       userEmail: this.user.email,
       sessionId: this.sessionId,
